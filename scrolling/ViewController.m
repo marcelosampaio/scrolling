@@ -19,19 +19,35 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 
+    // Main UIScroll view (Vertical)
     self.scroller.scrollEnabled=YES;
-    self.scroller.contentSize=CGSizeMake(640, 3000);
-    // Loop para injetar varios labels para ocupar a altura de 3000
-    
-    for (int i=15; i<3000; i=i+15) {
-        UILabel *msg=[[UILabel alloc]initWithFrame:CGRectMake(210, i, 100, 20)];
+    self.scroller.contentSize=CGSizeMake(320, 3000);
+
+    // Loop adding UI controls
+    for (int i=15; i<190; i=i+15) {
+        UILabel *msg=[[UILabel alloc]initWithFrame:CGRectMake(20, i, 50, 50)];
         msg.text=[NSString stringWithFormat:@"%d",i];
+        msg.textAlignment=NSTextAlignmentRight;
         [self.scroller addSubview:msg];
     }
     
     
+    // UIImageView apos y=300
+    UIScrollView *horizontalScroll=[[UIScrollView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height/2, 320, 160)];
+    
+    horizontalScroll.scrollEnabled=YES;
+    horizontalScroll.contentSize=CGSizeMake(3200, 80);
+    horizontalScroll.backgroundColor=[UIColor yellowColor];
+    [self.scroller addSubview:horizontalScroll];
+    
+    // Add content to horizontal scroll view
+    
+    
+    
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning
