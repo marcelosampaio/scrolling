@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0E5D6218BE54EB007BF5B5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D5B18BE54EB007BF5B5 /* 1.png */; };
+		9C0E5D6318BE54EB007BF5B5 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D5C18BE54EB007BF5B5 /* 7.png */; };
+		9C0E5D6418BE54EB007BF5B5 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D5D18BE54EB007BF5B5 /* 6.png */; };
+		9C0E5D6518BE54EB007BF5B5 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D5E18BE54EB007BF5B5 /* 5.png */; };
+		9C0E5D6618BE54EB007BF5B5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D5F18BE54EB007BF5B5 /* 4.png */; };
+		9C0E5D6718BE54EB007BF5B5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D6018BE54EB007BF5B5 /* 3.png */; };
+		9C0E5D6818BE54EB007BF5B5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0E5D6118BE54EB007BF5B5 /* 2.png */; };
 		9C3778FF187617CD0089C8AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3778FE187617CD0089C8AD /* Foundation.framework */; };
 		9C377901187617CD0089C8AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C377900187617CD0089C8AD /* CoreGraphics.framework */; };
 		9C377903187617CD0089C8AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C377902187617CD0089C8AD /* UIKit.framework */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C0E5D5B18BE54EB007BF5B5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		9C0E5D5C18BE54EB007BF5B5 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		9C0E5D5D18BE54EB007BF5B5 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		9C0E5D5E18BE54EB007BF5B5 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		9C0E5D5F18BE54EB007BF5B5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		9C0E5D6018BE54EB007BF5B5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		9C0E5D6118BE54EB007BF5B5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		9C3778FB187617CD0089C8AD /* scrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrolling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3778FE187617CD0089C8AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9C377900187617CD0089C8AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -126,6 +140,13 @@
 		9C377905187617CD0089C8AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9C0E5D5B18BE54EB007BF5B5 /* 1.png */,
+				9C0E5D5C18BE54EB007BF5B5 /* 7.png */,
+				9C0E5D5D18BE54EB007BF5B5 /* 6.png */,
+				9C0E5D5E18BE54EB007BF5B5 /* 5.png */,
+				9C0E5D5F18BE54EB007BF5B5 /* 4.png */,
+				9C0E5D6018BE54EB007BF5B5 /* 3.png */,
+				9C0E5D6118BE54EB007BF5B5 /* 2.png */,
 				9C377906187617CD0089C8AD /* scrolling-Info.plist */,
 				9C377907187617CD0089C8AD /* InfoPlist.strings */,
 				9C37790A187617CD0089C8AD /* main.m */,
@@ -228,7 +249,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C0E5D6418BE54EB007BF5B5 /* 6.png in Resources */,
 				9C377917187617CD0089C8AD /* Images.xcassets in Resources */,
+				9C0E5D6818BE54EB007BF5B5 /* 2.png in Resources */,
+				9C0E5D6218BE54EB007BF5B5 /* 1.png in Resources */,
+				9C0E5D6718BE54EB007BF5B5 /* 3.png in Resources */,
+				9C0E5D6318BE54EB007BF5B5 /* 7.png in Resources */,
+				9C0E5D6618BE54EB007BF5B5 /* 4.png in Resources */,
+				9C0E5D6518BE54EB007BF5B5 /* 5.png in Resources */,
 				9C377909187617CD0089C8AD /* InfoPlist.strings in Resources */,
 				9C377912187617CD0089C8AD /* Main.storyboard in Resources */,
 			);
@@ -462,6 +490,7 @@
 				9C37792F187617CD0089C8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C377930187617CD0089C8AD /* Build configuration list for PBXNativeTarget "scrollingTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +499,7 @@
 				9C377932187617CD0089C8AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -38,11 +38,17 @@
     
     horizontalScroll.scrollEnabled=YES;
     horizontalScroll.contentSize=CGSizeMake(3200, 80);
-    horizontalScroll.backgroundColor=[UIColor yellowColor];
+    horizontalScroll.backgroundColor=[UIColor whiteColor];
     [self.scroller addSubview:horizontalScroll];
     
     // Add content to horizontal scroll view
+    UIImageView *img1=[[UIImageView alloc]initWithFrame:CGRectMake(20, 10, 80, 100)];
+    img1.image=[UIImage imageNamed:@"1.png"];
+    [horizontalScroll addSubview:img1];
     
+    UIImageView *img2=[[UIImageView alloc]initWithFrame:CGRectMake(120, 10, 80, 100)];
+    img2.image=[UIImage imageNamed:@"2.png"];
+    [horizontalScroll addSubview:img2];
     
     
     
